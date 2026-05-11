@@ -3,13 +3,13 @@ import { initializeAuth, getReactNativePersistence } from 'firebase/auth';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCjHpKSiTQdjogCHB3wY6a5D5ywXRCLbp4",
-    authDomain: "mobile-lanjut-f33eb.firebaseapp.com",
-    projectId: "mobile-lanjut-f33eb",
-    storageBucket: "mobile-lanjut-f33eb.firebasestorage.app",
-    messagingSenderId: "159235517651",
-    appId: "1:159235517651:web:b85e3cf2996bb60778b826",
-    measurementId: "G-4GX4YM5J40"
+    apiKey: process.env.EXPO_PUBLIC_FIREBASE_API_KEY,
+    authDomain: process.env.EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.EXPO_PUBLIC_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.EXPO_PUBLIC_FIREBASE_APP_ID,
+    measurementId: process.env.EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID,
 };
 
 const app = initializeApp(firebaseConfig);

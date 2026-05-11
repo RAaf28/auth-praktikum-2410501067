@@ -17,21 +17,20 @@ Install dulu:
 npm install
 ```
 
-Buat file `src/config/firebase.js` dan isi konfigurasi Firebase dari console:
+Buat file `.env` di root project, isi dengan konfigurasi Firebase kamu (lihat `.env.example` sebagai template):
 
-```js
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
-
-const firebaseConfig = {
-  apiKey: "...",
-  authDomain: "...",
-  projectId: "...",
-};
-
-const app = initializeApp(firebaseConfig);
-export const auth = getAuth(app);
 ```
+EXPO_PUBLIC_FIREBASE_API_KEY=
+EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=
+EXPO_PUBLIC_FIREBASE_PROJECT_ID=
+EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=
+EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+EXPO_PUBLIC_FIREBASE_APP_ID=
+EXPO_PUBLIC_FIREBASE_MEASUREMENT_ID=
+```
+
+Konfigurasi Firebase bisa didapat dari [Firebase Console](https://console.firebase.google.com/) → Project Settings → Your Apps.
+Pastikan **Email/Password** sudah diaktifkan di Authentication → Sign-in method.
 
 Jalankan:
 
