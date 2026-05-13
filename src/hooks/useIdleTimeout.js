@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react';
 import { AppState } from 'react-native';
 
-const IDLE_TIMEOUT = 10 * 1000; // 5 menit dalam milidetik
+const IDLE_TIMEOUT = 10 * 1000; // 60 menit dalam milidetik
 
 export function useIdleTimeout(onTimeout) {
     const timerRef = useRef(null);
