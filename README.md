@@ -13,7 +13,7 @@ Aplikasi React Native (Expo) untuk praktikum autentikasi menggunakan Firebase. D
 
 | Login | Register | Home | Lupa Password | Idle / Auto Logout |
 |-------|----------|------|---------------|--------------------|
-| ![Login](screenshots/login.png) | ![Register](screenshots/register.png) | ![Home](screenshots/home.png) | ![Forgot Password](screenshots/forgot_password.png) | ![Idle](screenshots/idle.png) |
+| ![Login](screenshots/login.jpeg) | ![Register](screenshots/register.jpeg) | ![Home](screenshots/Home.jpeg) | ![Forgot Password](screenshots/forgot_password.jpeg) | ![Idle](screenshots/Idle.jpeg) |
 
 ## Link video demo
 Gdrive: https://drive.google.com/file/d/1LUZI9dip4kJwYXWpO0jAxmkCopO1qWkz/view?usp=drive_link
