@@ -9,6 +9,10 @@ Aplikasi React Native (Expo) untuk praktikum autentikasi menggunakan Firebase. D
 - Auto logout kalau tidak ada aktivitas selama 10 detik
 - Token disimpan pakai expo-secure-store
 
+## Link video demo
+https://drive.google.com/file/d/1LUZI9dip4kJwYXWpO0jAxmkCopO1qWkz/view?usp=drive_link
+
+
 ## Cara pakai
 
 Install dulu:
